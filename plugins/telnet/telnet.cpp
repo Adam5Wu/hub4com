@@ -89,7 +89,7 @@ enum {
 TelnetProtocol::TelnetProtocol(const char *pName)
   : name(pName ? pName : "NONAME")
 {
-  cout << name << " START" << endl;
+  //cout << name << " START" << endl;
 
   state = stData;
 
@@ -99,7 +99,7 @@ TelnetProtocol::TelnetProtocol(const char *pName)
 
 TelnetProtocol::~TelnetProtocol()
 {
-  cout << name << " STOP" << endl;
+  //cout << name << " STOP" << endl;
 
   for(int i = 0 ; i < BYTE(-1) ; i++) {
     if (options[i])

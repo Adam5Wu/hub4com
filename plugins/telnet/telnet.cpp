@@ -174,7 +174,7 @@ HUB_MSG *TelnetProtocol::Encode(HUB_MSG *pMsg)
 
 void TelnetProtocol::KeepActive()
 {
-  cout << name << " SEND: NOP" << endl;
+  //cout << name << " SEND: NOP" << endl;
 
   streamEncoded += (BYTE)cdIAC;
   streamEncoded += (BYTE)cdNOP;
@@ -210,7 +210,7 @@ HUB_MSG *TelnetProtocol::Decode(HUB_MSG *pMsg)
             state = stData;
             break;
           case cdNOP:
-            cout << name << " RECV: " << code2name(ch) << endl;
+            //cout << name << " RECV: " << code2name(ch) << endl;
             state = stData;
             break;
           case cdSB:
@@ -227,7 +227,7 @@ HUB_MSG *TelnetProtocol::Decode(HUB_MSG *pMsg)
         }
         break;
       case stOption:
-        cout << name << " RECV: " << code2name(code) << " " << (unsigned)ch << endl;
+        //cout << name << " RECV: " << code2name(code) << " " << (unsigned)ch << endl;
         switch (code) {
           case cdSB:
             option = ch;
@@ -267,7 +267,7 @@ HUB_MSG *TelnetProtocol::Decode(HUB_MSG *pMsg)
             }
             break;
           default:
-            cout << "  ignored" << endl;
+            cout << name << " RECV: unknown code " << (unsigned)code << " (should not reach)" << endl;
         };
         if (state == stOption)
           state = stData;
@@ -285,23 +285,23 @@ HUB_MSG *TelnetProtocol::Decode(HUB_MSG *pMsg)
             state = stSubParams;
             break;
           case cdSE:
-            cout << "  ";
-            {
-              for (BYTE_vector::const_iterator i = params.begin() ; i != params.end() ; i++)
-                cout << (unsigned)*i << " ";
+            if (!options[option]) {
+              cout << name << " RECV: " << code2name(code) << " invalid subcode state - ";
+              {
+                for (BYTE_vector::const_iterator i = params.begin() ; i != params.end() ; i++)
+                  cout << (unsigned)*i << " ";
+              }
+              cout << "SE" << endl;
             }
-            cout << "SE" << endl;
 
-            if (!options[option] || !options[option]->OnSubNegotiation(params, &pMsg))
-              cout << "  ignored" << endl;
-
+            options[option]->OnSubNegotiation(params, &pMsg);
             if (!pMsg)
               return NULL;
 
             state = stData;
             break;
           default:
-            cout << name << " RECV: unknown sub code " << (unsigned)ch << endl;
+            cout << name << " RECV: unknown sub code " << (unsigned)ch << " (should not reach)" << endl;
             state = stData;
         };
         break;
@@ -323,7 +323,7 @@ void TelnetProtocol::FlushEncodedStream(HUB_MSG **ppEchoMsg)
 
 void TelnetProtocol::SendOption(BYTE code, BYTE option)
 {
-  cout << name << " SEND: " << code2name(code) << " " << (unsigned)option << endl;
+  //cout << name << " SEND: " << code2name(code) << " " << (unsigned)option << endl;
 
   streamEncoded += (BYTE)cdIAC;
   streamEncoded += code;
@@ -334,17 +334,17 @@ void TelnetProtocol::SendSubNegotiation(BYTE option, const BYTE_vector &params)
 {
   SendOption(cdSB, option);
 
-  cout << "  ";
+  //cout << "  ";
   for (BYTE_vector::const_iterator i = params.begin() ; i != params.end() ; i++) {
     BYTE b = *i;
 
-    cout << (unsigned)b << " ";
+    //cout << (unsigned)b << " ";
     streamEncoded += b;
 
     if (b == cdIAC)
       streamEncoded += b;
   }
-  cout << "SE" << endl;
+  //cout << "SE" << endl;
 
   streamEncoded += (BYTE)cdIAC;
   streamEncoded += (BYTE)cdSE;

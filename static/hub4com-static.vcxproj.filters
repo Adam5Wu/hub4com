@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hub4com">
+      <UniqueIdentifier>{b364cbf2-959a-4ae9-b1d8-ba2efe2903a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hub4com\Header Files">
+      <UniqueIdentifier>{3eb1cb52-8d99-493b-8a8e-b0d4de77ff07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hub4com\Source Files">
+      <UniqueIdentifier>{4d4b37ae-e712-4dbe-a28d-b2b5876f09e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hub4com\Resource Files">
+      <UniqueIdentifier>{9cec3882-b2a5-4deb-9058-6d5111cd53ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-telnet">
+      <UniqueIdentifier>{ef47eb4d-dc4d-4e4d-86f1-786a931f9e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-telnet\Header Files">
+      <UniqueIdentifier>{0fc4844e-676a-493e-940a-591efd07b6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-telnet\Source Files">
+      <UniqueIdentifier>{731d7a74-d6a5-4cde-ae2f-8594ed350dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-serial">
+      <UniqueIdentifier>{bad6aa25-14fc-4849-862b-30512572c64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-serial\Header Files">
+      <UniqueIdentifier>{0f3d75eb-616e-4eb9-abfa-bec350c151d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-serial\Source Files">
+      <UniqueIdentifier>{daf8d2e1-04b7-41e1-814f-d368a0dbb0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-escparse">
+      <UniqueIdentifier>{ebe42e60-69f3-4afd-b55e-bf5c31f38181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-escparse\Header Files">
+      <UniqueIdentifier>{8a04c24f-f1fd-4af9-a72a-ec2825d6bf75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-escparse\Source Files">
+      <UniqueIdentifier>{543cafd8-2564-42d8-9ec5-576512b116a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-awakseq">
+      <UniqueIdentifier>{ce951cfd-0be6-4f9c-8651-4ba65f04d649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-awakseq\Header Files">
+      <UniqueIdentifier>{0a91cd7f-b042-4148-bea5-ca1a07ef6fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-awakseq\Source Files">
+      <UniqueIdentifier>{52b0b062-3e6d-4d99-8ec9-681e295a42df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-echo">
+      <UniqueIdentifier>{9b5589e3-b9d3-4c01-a98f-cb8a19eb9848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-echo\Header Files">
+      <UniqueIdentifier>{b0c25afc-7048-4651-85e4-e8577b09acf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-echo\Source Files">
+      <UniqueIdentifier>{0b116c34-e806-4367-b3d2-809b187a6cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-escinsert">
+      <UniqueIdentifier>{d285baa4-d091-4283-87a7-354f527485b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-escinsert\Header Files">
+      <UniqueIdentifier>{8d1bc69f-8152-4239-9c08-9dbd02494b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-escinsert\Source Files">
+      <UniqueIdentifier>{09565995-56cf-45b3-b810-603e18dfe4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-tcp">
+      <UniqueIdentifier>{61b69f40-d40c-4096-af60-91e459b9d7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-tcp\Header Files">
+      <UniqueIdentifier>{1b742e6e-a871-448f-9e8a-fee1d9fc9ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-tcp\Source Files">
+      <UniqueIdentifier>{270a2340-0686-4221-84b0-2413025531cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-linectl">
+      <UniqueIdentifier>{c65409a9-d73f-4398-a268-bb11cd93ed32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-linectl\Header Files">
+      <UniqueIdentifier>{6f0b9365-1f61-47b8-aec4-9cf39a3c7751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-linectl\Source Files">
+      <UniqueIdentifier>{8da54151-e2e1-41d1-9ab0-791f3167380f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-lsrmap">
+      <UniqueIdentifier>{1d7e71e3-36e0-474e-8f44-937ef99f221a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-lsrmap\Header Files">
+      <UniqueIdentifier>{854e315e-4418-40b5-8c68-200d4d65d5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-lsrmap\Source Files">
+      <UniqueIdentifier>{1edd9fd4-cf42-4d6f-aef7-044d851b40c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-pin2con">
+      <UniqueIdentifier>{35d50d34-3f95-4288-a5bc-f2ce9fa7abb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-pin2con\Header Files">
+      <UniqueIdentifier>{a94b9ac9-a9d5-4d68-8f09-ff80539a373c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-pin2con\Source Files">
+      <UniqueIdentifier>{8fe6bbac-d1b0-4615-a12d-ea0edfa257ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-trace">
+      <UniqueIdentifier>{da003af6-6877-4daa-8eed-d8386cd7d6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-trace\Header Files">
+      <UniqueIdentifier>{d2639ba7-a49a-4c45-926a-f54a2e943e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-trace\Source Files">
+      <UniqueIdentifier>{bd96e596-0328-40ac-b07c-d1288f88575d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-pinmap">
+      <UniqueIdentifier>{cc270072-6b69-4983-8a19-0ed171ee0d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-pinmap\Header Files">
+      <UniqueIdentifier>{7c0d40f4-2dd8-4870-9836-1031ff0c2cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-pinmap\Source Files">
+      <UniqueIdentifier>{49d2b356-4fcb-4498-8534-e4e8a408ad1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-tag">
+      <UniqueIdentifier>{eefe43e0-4930-4cca-a078-638861069dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-tag\Header Files">
+      <UniqueIdentifier>{bec9b702-a0c5-4aa8-b473-3889fd462958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-tag\Source Files">
+      <UniqueIdentifier>{5a4b2754-656e-4895-9110-5da70cf3b15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-connector">
+      <UniqueIdentifier>{beb580ca-580c-46ad-a004-2d8b9d8d2e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-connector\Header Files">
+      <UniqueIdentifier>{f25ba38f-3c95-41d7-9e4b-ee4614593dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port-connector\Source Files">
+      <UniqueIdentifier>{26d35736-f69e-4877-8d6c-7499097249de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-crypt">
+      <UniqueIdentifier>{a5474ed3-2fc5-4b25-a2b8-c1377d6cf8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-crypt\Header Files">
+      <UniqueIdentifier>{04a600a7-fe54-475d-aed0-7c5e6e1818e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-crypt\Source Files">
+      <UniqueIdentifier>{a9516127-af9d-4549-92d5-ced2a7088283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-purge">
+      <UniqueIdentifier>{c12beb9c-43ea-407d-95b4-cf32963f9c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-purge\Header Files">
+      <UniqueIdentifier>{7097f87e-af8b-44e5-8d22-e2496ab9e9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter-purge\Source Files">
+      <UniqueIdentifier>{38b037df-54ab-4525-871f-d7f42b6bc78c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\bufutils.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\comhub.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\export.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\filter.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\filters.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hubmsg.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\plugins_api.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\port.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\precomp.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\route.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\static.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\timer.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\version.h">
+      <Filter>hub4com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\telnet\import.h">
+      <Filter>filter-telnet\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\telnet\opt_comport.h">
+      <Filter>filter-telnet\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\telnet\opt_termtype.h">
+      <Filter>filter-telnet\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\telnet\precomp.h">
+      <Filter>filter-telnet\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\telnet\telnet.h">
+      <Filter>filter-telnet\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\serial\comio.h">
+      <Filter>port-serial\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\serial\comparams.h">
+      <Filter>port-serial\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\serial\comport.h">
+      <Filter>port-serial\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\serial\import.h">
+      <Filter>port-serial\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\serial\precomp.h">
+      <Filter>port-serial\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\escparse\precomp.h">
+      <Filter>filter-escparse\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\awakseq\precomp.h">
+      <Filter>filter-awakseq\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\echo\precomp.h">
+      <Filter>filter-echo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\escinsert\precomp.h">
+      <Filter>filter-escinsert\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\tcp\comio.h">
+      <Filter>port-tcp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\tcp\comparams.h">
+      <Filter>port-tcp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\tcp\comport.h">
+      <Filter>port-tcp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\tcp\import.h">
+      <Filter>port-tcp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\tcp\precomp.h">
+      <Filter>port-tcp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\linectl\precomp.h">
+      <Filter>filter-linectl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\lsrmap\precomp.h">
+      <Filter>filter-lsrmap\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\pin2con\precomp.h">
+      <Filter>filter-pin2con\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\trace\precomp.h">
+      <Filter>filter-trace\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\pinmap\precomp.h">
+      <Filter>filter-pinmap\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\tag\precomp.h">
+      <Filter>filter-tag\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\connector\comport.h">
+      <Filter>port-connector\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\connector\import.h">
+      <Filter>port-connector\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\connector\precomp.h">
+      <Filter>port-connector\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\crypt\precomp.h">
+      <Filter>filter-crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\purge\precomp.h">
+      <Filter>filter-purge\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\comhub.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\export.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hub4com.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hubmsg.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\port.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\route.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\static.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\timer.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils.cpp">
+      <Filter>hub4com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\telnet\filter.cpp">
+      <Filter>filter-telnet\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\telnet\opt_comport.cpp">
+      <Filter>filter-telnet\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\telnet\opt_termtype.cpp">
+      <Filter>filter-telnet\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\telnet\telnet.cpp">
+      <Filter>filter-telnet\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\serial\comio.cpp">
+      <Filter>port-serial\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\serial\comparams.cpp">
+      <Filter>port-serial\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\serial\comport.cpp">
+      <Filter>port-serial\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\serial\port.cpp">
+      <Filter>port-serial\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\escparse\filter.cpp">
+      <Filter>filter-escparse\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\awakseq\filter.cpp">
+      <Filter>filter-awakseq\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\echo\filter.cpp">
+      <Filter>filter-echo\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\escinsert\filter.cpp">
+      <Filter>filter-escinsert\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\tcp\comio.cpp">
+      <Filter>port-tcp\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\tcp\comparams.cpp">
+      <Filter>port-tcp\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\tcp\comport.cpp">
+      <Filter>port-tcp\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\tcp\port.cpp">
+      <Filter>port-tcp\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\linectl\filter.cpp">
+      <Filter>filter-linectl\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\lsrmap\filter.cpp">
+      <Filter>filter-lsrmap\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\pin2con\filter.cpp">
+      <Filter>filter-pin2con\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\trace\filter.cpp">
+      <Filter>filter-trace\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\pinmap\filter.cpp">
+      <Filter>filter-pinmap\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\tag\filter.cpp">
+      <Filter>filter-tag\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\connector\comport.cpp">
+      <Filter>port-connector\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\connector\port.cpp">
+      <Filter>port-connector\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\crypt\filter.cpp">
+      <Filter>filter-crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\purge\filter.cpp">
+      <Filter>filter-purge\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\hub4com.rc">
+      <Filter>hub4com\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
